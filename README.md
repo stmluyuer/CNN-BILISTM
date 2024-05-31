@@ -9,7 +9,7 @@ CNN+BILSTM是初期测试时做的模型，非常基础，基于Python的Keras�
 另外还有一个，基于Keras框架的LSTM和特征工程的模型，当时尽管试了很多办法效果还是很差，
 因为特征太少，使用Scikit-learn的PolynomialFeatures生成多项式特征和交叉特征，并使用随机森林模型进行特征重要性评估，保留关键特征，
 因为数据分布不均，最后使用使用Scikit-learn的train_test_split划分数据，确保训练集和测试集差异不会过大。
-模型的重点有通过EarlyStopping和ReduceLROnPlateau进行学习率调整，防止过拟合和提升模型性能，同时编译模型时使用均方误差（MSE）作为损失函数。
+模型的重点是通过EarlyStopping和ReduceLROnPlateau进行学习率调整，防止过拟合和提升模型性能，同时编译模型时使用均方误差（MSE）作为损失函数。
 
 早期做的模型，被要求使用拼音，大佬就别看啦==
 
