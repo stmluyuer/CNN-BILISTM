@@ -11,6 +11,14 @@ CNN+BILSTM是初期测试时做的模型，非常基础，基于Python的Keras�
 因为数据分布不均，最后使用使用Scikit-learn的train_test_split划分数据，确保训练集和测试集差异不会过大。
 模型的重点有通过EarlyStopping和ReduceLROnPlateau进行学习率调整，防止过拟合和提升模型性能，同时编译模型时使用均方误差（MSE）作为损失函数。
 
+早期做的项目，被要求使用拼音，大佬就别看啦==
+
+## 预测模型的评估图
+### 动态
+![CNN-BILISTMdongtai](Test-1.png)
+### 静态
+![CNN-BILISTMjingtai](Test-2.png)
+
 ## 使用方法
 1. **安装依赖**：
    ```bash
